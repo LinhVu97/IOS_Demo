@@ -1,0 +1,11 @@
+/* 
+  Localized.strings
+  MeetUpApp
+
+  Created by Vũ Linh on 15/07/2021.
+  
+*/
+"Tabbar.Home" = "Home";
+"Tabbar.Near" = "Near";
+"Tabbar.List" = "List";
+"Tabbar.Profile" = "Profile";
