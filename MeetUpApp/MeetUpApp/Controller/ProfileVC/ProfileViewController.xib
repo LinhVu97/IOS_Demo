@@ -37,6 +37,7 @@
                 <constraint firstItem="bOd-Og-pKo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7Ix-aY-Xcv"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ld5-FS-pvP" secondAttribute="trailing" constant="20" id="AmT-ea-vXS"/>
                 <constraint firstItem="ld5-FS-pvP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Dbh-fL-5vC"/>
+                <constraint firstItem="bOd-Og-pKo" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.147321" id="I8c-Bj-rqc"/>
                 <constraint firstItem="bOd-Og-pKo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="j1D-lR-thZ"/>
                 <constraint firstItem="ld5-FS-pvP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="kRX-fX-2gF"/>
                 <constraint firstItem="bOd-Og-pKo" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="mua-kT-it9"/>

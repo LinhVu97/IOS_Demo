@@ -16,6 +16,9 @@ class HomeViewController: UIViewController {
     @IBOutlet weak private var leftView: UIView!
     @IBOutlet weak private var rightView: UIView!
     
+    let newsView = NewsViewController()
+    let eventsView = EventsViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -24,6 +27,10 @@ class HomeViewController: UIViewController {
     // Setup View
     private func setupView() {
         scrollView.delegate = self
+        setUpTabLayout(viewControllerLeft: newsView,
+                       viewControllerRight: eventsView,
+                       leftViewInput: leftView,
+                       rightViewInput: rightView)
     }
     
     // MARK: - Button
