@@ -5,7 +5,13 @@
   Created by Vũ Linh on 15/07/2021.
   
 */
+
+// Tabbar
 "Tabbar.Home" = "Trang chủ";
 "Tabbar.Near" = "Gần tôi";
 "Tabbar.List" = "Danh mục";
 "Tabbar.Profile" = "Cá nhân";
+
+// Button
+"Button.News" = "Tin tức";
+"Button.Events" = "Sự kiện";

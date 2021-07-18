@@ -5,7 +5,13 @@
   Created by Vũ Linh on 15/07/2021.
   
 */
+
+// Tabbar
 "Tabbar.Home" = "Home";
-"Tabbar.Near" = "Near";
+"Tabbar.Near" = "Near me";
 "Tabbar.List" = "List";
 "Tabbar.Profile" = "Profile";
+
+// Button
+"Button.News" = "News";
+"Button.Events" = "Events";
