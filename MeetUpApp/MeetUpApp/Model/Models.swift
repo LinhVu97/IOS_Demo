@@ -9,12 +9,13 @@ import Foundation
 
 struct Result: Codable {
     let newsData: [ResultItem]
-    let eventsData: [ResultItem]
+    var eventsData: [ResultItem]
 }
 
 struct ResultItem: Codable {
-    let image: String
-    let time: String
-    let title: String
-    let description: String
+    var image: String
+    var time: String
+    var title: String
+    var description: String
+    var status: Int = 0
 }
