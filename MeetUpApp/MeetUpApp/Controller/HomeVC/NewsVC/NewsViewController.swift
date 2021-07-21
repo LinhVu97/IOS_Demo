@@ -30,7 +30,7 @@ class NewsViewController: UIViewController {
     
     // Parse JSON
     private func parseJSON() {
-        guard let path = Bundle.main.path(forResource: "NewsData",
+        guard let path = Bundle.main.path(forResource: "Data",
                                           ofType: "json") else {
             return
         }

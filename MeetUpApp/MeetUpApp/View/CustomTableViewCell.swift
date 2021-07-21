@@ -13,15 +13,29 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var imageCell: UIImageView!
     @IBOutlet weak var timerCell: UILabel!
+    @IBOutlet weak var imageTimer: UIImageView!
     @IBOutlet weak var titleCell: UILabel!
     @IBOutlet weak var descriptionCell: UILabel!
     @IBOutlet weak var backgroundStatusView: UIView!
     @IBOutlet weak var star: UIImageView!
     @IBOutlet weak var statusLabel: UILabel!
     
+    var handler: (() -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         imageCell.roundCorners()
+        setupBackgroundStatus()
+    }
+    
+    // Setup Background Status
+    private func setupBackgroundStatus() {
+        backgroundStatusView.layer.cornerRadius = 15
+        backgroundStatusView.layer.masksToBounds = true
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(change))
+        recognizer.numberOfTouchesRequired = 1
+        backgroundStatusView.isUserInteractionEnabled = true
+        backgroundStatusView.addGestureRecognizer(recognizer)
     }
     
     override func prepareForReuse() {
@@ -40,5 +54,9 @@ class CustomTableViewCell: UITableViewCell {
         timerCell.text = time
         titleCell.text = title
         descriptionCell.text = description
+    }
+
+    @objc func change() {
+        handler?()
     }
 }

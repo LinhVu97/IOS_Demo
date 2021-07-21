@@ -37,8 +37,10 @@
 		C4B83AE626A452130041F577 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AE426A452130041F577 /* CustomTableViewCell.xib */; };
 		C4B83AE826A452980041F577 /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AE726A452980041F577 /* ExtensionsView.swift */; };
 		C4B83AEA26A452A50041F577 /* ExtensionsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AE926A452A50041F577 /* ExtensionsImage.swift */; };
-		C4B83AF026A459F50041F577 /* NewsData.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AEF26A459F50041F577 /* NewsData.json */; };
+		C4B83AF026A459F50041F577 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AEF26A459F50041F577 /* Data.json */; };
 		C4B83AF226A45BB40041F577 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AF126A45BB40041F577 /* Models.swift */; };
+		C4F5183A26A5C332009DBE63 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F5183826A5C332009DBE63 /* StatusViewController.swift */; };
+		C4F5183B26A5C332009DBE63 /* StatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F5183926A5C332009DBE63 /* StatusViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +98,10 @@
 		C4B83AE426A452130041F577 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		C4B83AE726A452980041F577 /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
 		C4B83AE926A452A50041F577 /* ExtensionsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsImage.swift; sourceTree = "<group>"; };
-		C4B83AEF26A459F50041F577 /* NewsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NewsData.json; sourceTree = "<group>"; };
+		C4B83AEF26A459F50041F577 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		C4B83AF126A45BB40041F577 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C4F5183826A5C332009DBE63 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		C4F5183926A5C332009DBE63 /* StatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +201,7 @@
 				C4B3683426A023AA00280DA8 /* MeetUpApp.xcdatamodeld */,
 				C485944026A03066009DE6B6 /* .swiftlint.yml */,
 				C485945D26A03AFF009DE6B6 /* Localizable.strings */,
-				C4B83AEF26A459F50041F577 /* NewsData.json */,
+				C4B83AEF26A459F50041F577 /* Data.json */,
 			);
 			path = MeetUpApp;
 			sourceTree = "<group>";
@@ -240,6 +244,7 @@
 		C4B3686026A023DB00280DA8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C4F5183726A5C2EF009DBE63 /* StatusVC */,
 				C485941E26A02543009DE6B6 /* HomeVC */,
 				C485941F26A02548009DE6B6 /* NearVC */,
 				C485942026A0254D009DE6B6 /* ListVC */,
@@ -287,6 +292,15 @@
 				C4B83AE026A451F60041F577 /* EventsViewController.xib */,
 			);
 			path = EventsVC;
+			sourceTree = "<group>";
+		};
+		C4F5183726A5C2EF009DBE63 /* StatusVC */ = {
+			isa = PBXGroup;
+			children = (
+				C4F5183826A5C332009DBE63 /* StatusViewController.swift */,
+				C4F5183926A5C332009DBE63 /* StatusViewController.xib */,
+			);
+			path = StatusVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,11 +411,12 @@
 				C485944126A03066009DE6B6 /* .swiftlint.yml in Resources */,
 				C485943226A025B0009DE6B6 /* ProfileViewController.xib in Resources */,
 				C4B83AE626A452130041F577 /* CustomTableViewCell.xib in Resources */,
-				C4B83AF026A459F50041F577 /* NewsData.json in Resources */,
+				C4B83AF026A459F50041F577 /* Data.json in Resources */,
 				C4B3683B26A023AB00280DA8 /* LaunchScreen.storyboard in Resources */,
 				C485941D26A02519009DE6B6 /* TabbarViewController.xib in Resources */,
 				C485942E26A0259E009DE6B6 /* ListViewController.xib in Resources */,
 				C4B83AE226A451F60041F577 /* EventsViewController.xib in Resources */,
+				C4F5183B26A5C332009DBE63 /* StatusViewController.xib in Resources */,
 				C4B3683826A023AB00280DA8 /* Assets.xcassets in Resources */,
 				C485945B26A03AFF009DE6B6 /* Localizable.strings in Resources */,
 				C4B83ADE26A451E10041F577 /* NewsViewController.xib in Resources */,
@@ -467,6 +482,7 @@
 				C4B83AE526A452130041F577 /* CustomTableViewCell.swift in Sources */,
 				C4B3683626A023AA00280DA8 /* MeetUpApp.xcdatamodeld in Sources */,
 				C485943126A025B0009DE6B6 /* ProfileViewController.swift in Sources */,
+				C4F5183A26A5C332009DBE63 /* StatusViewController.swift in Sources */,
 				C485942D26A0259E009DE6B6 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
