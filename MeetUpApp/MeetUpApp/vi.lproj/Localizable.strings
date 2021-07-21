@@ -15,3 +15,8 @@
 // Button
 "Button.News" = "Tin tức";
 "Button.Events" = "Sự kiện";
+
+// Alert
+"Error" = "Lỗi";
+"Error.CannotLoadData" = "Không tải được dữ liệu";
+"OK" = "OK";

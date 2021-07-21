@@ -38,6 +38,7 @@
                 <constraint firstItem="GJj-8q-1js" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="HRC-4h-hmC"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GJj-8q-1js" secondAttribute="trailing" constant="20" id="Idj-8E-wXb"/>
                 <constraint firstItem="bGp-wb-Qua" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="W0U-tF-Nt4"/>
+                <constraint firstItem="bGp-wb-Qua" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.147321" id="aeh-RA-InK"/>
                 <constraint firstItem="bGp-wb-Qua" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="b5L-gB-80F"/>
                 <constraint firstItem="GJj-8q-1js" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="xGG-kz-ESR"/>
             </constraints>

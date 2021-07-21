@@ -34,6 +34,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="0ce-UV-dVw" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.147321" id="75u-DR-eZQ"/>
                 <constraint firstItem="0ce-UV-dVw" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="BgS-oR-L04"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xG3-Sa-81u" secondAttribute="trailing" constant="20" id="IXO-2R-dlF"/>
                 <constraint firstItem="0ce-UV-dVw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fPe-mz-aPb"/>

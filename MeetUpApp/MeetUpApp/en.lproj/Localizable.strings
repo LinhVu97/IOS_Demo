@@ -15,3 +15,8 @@
 // Button
 "Button.News" = "News";
 "Button.Events" = "Events";
+
+// Alert
+"Error" = "Error";
+"Error.CannotLoadData" = "Cannot Load Data";
+"OK" = "OK";

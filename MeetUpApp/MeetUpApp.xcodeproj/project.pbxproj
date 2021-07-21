@@ -29,6 +29,16 @@
 		C4B3684626A023AB00280DA8 /* MeetUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3684526A023AB00280DA8 /* MeetUpAppTests.swift */; };
 		C4B3685126A023AB00280DA8 /* MeetUpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3685026A023AB00280DA8 /* MeetUpAppUITests.swift */; };
 		C4B3686326A023F300280DA8 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3686226A023F300280DA8 /* CoreData.swift */; };
+		C4B83ADD26A451E10041F577 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83ADB26A451E10041F577 /* NewsViewController.swift */; };
+		C4B83ADE26A451E10041F577 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B83ADC26A451E10041F577 /* NewsViewController.xib */; };
+		C4B83AE126A451F60041F577 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83ADF26A451F60041F577 /* EventsViewController.swift */; };
+		C4B83AE226A451F60041F577 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AE026A451F60041F577 /* EventsViewController.xib */; };
+		C4B83AE526A452130041F577 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AE326A452130041F577 /* CustomTableViewCell.swift */; };
+		C4B83AE626A452130041F577 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AE426A452130041F577 /* CustomTableViewCell.xib */; };
+		C4B83AE826A452980041F577 /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AE726A452980041F577 /* ExtensionsView.swift */; };
+		C4B83AEA26A452A50041F577 /* ExtensionsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AE926A452A50041F577 /* ExtensionsImage.swift */; };
+		C4B83AF026A459F50041F577 /* NewsData.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B83AEF26A459F50041F577 /* NewsData.json */; };
+		C4B83AF226A45BB40041F577 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B83AF126A45BB40041F577 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +88,16 @@
 		C4B3685026A023AB00280DA8 /* MeetUpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpAppUITests.swift; sourceTree = "<group>"; };
 		C4B3685226A023AB00280DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4B3686226A023F300280DA8 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		C4B83ADB26A451E10041F577 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C4B83ADC26A451E10041F577 /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		C4B83ADF26A451F60041F577 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C4B83AE026A451F60041F577 /* EventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		C4B83AE326A452130041F577 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C4B83AE426A452130041F577 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		C4B83AE726A452980041F577 /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
+		C4B83AE926A452A50041F577 /* ExtensionsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsImage.swift; sourceTree = "<group>"; };
+		C4B83AEF26A459F50041F577 /* NewsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NewsData.json; sourceTree = "<group>"; };
+		C4B83AF126A45BB40041F577 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +128,8 @@
 		C485941E26A02543009DE6B6 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				C4B83ADA26A451BD0041F577 /* EventsVC */,
+				C4B83AD926A451B70041F577 /* NewsVC */,
 				C485942226A02570009DE6B6 /* HomeViewController.swift */,
 				C40413CC26A04AA10017FBFC /* HomeViewController.xib */,
 			);
@@ -175,6 +197,7 @@
 				C4B3683426A023AA00280DA8 /* MeetUpApp.xcdatamodeld */,
 				C485944026A03066009DE6B6 /* .swiftlint.yml */,
 				C485945D26A03AFF009DE6B6 /* Localizable.strings */,
+				C4B83AEF26A459F50041F577 /* NewsData.json */,
 			);
 			path = MeetUpApp;
 			sourceTree = "<group>";
@@ -200,6 +223,7 @@
 		C4B3685E26A023D200280DA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4B83AF126A45BB40041F577 /* Models.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +231,8 @@
 		C4B3685F26A023D800280DA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4B83AE326A452130041F577 /* CustomTableViewCell.swift */,
+				C4B83AE426A452130041F577 /* CustomTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +256,8 @@
 				C485943C26A02E51009DE6B6 /* ExtensionString.swift */,
 				C485943E26A02EE3009DE6B6 /* Localized.swift */,
 				C40413C426A049500017FBFC /* LocalizedUI.swift */,
+				C4B83AE726A452980041F577 /* ExtensionsView.swift */,
+				C4B83AE926A452A50041F577 /* ExtensionsImage.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -241,6 +269,24 @@
 				C485941B26A02519009DE6B6 /* TabbarViewController.xib */,
 			);
 			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		C4B83AD926A451B70041F577 /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				C4B83ADB26A451E10041F577 /* NewsViewController.swift */,
+				C4B83ADC26A451E10041F577 /* NewsViewController.xib */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
+		C4B83ADA26A451BD0041F577 /* EventsVC */ = {
+			isa = PBXGroup;
+			children = (
+				C4B83ADF26A451F60041F577 /* EventsViewController.swift */,
+				C4B83AE026A451F60041F577 /* EventsViewController.xib */,
+			);
+			path = EventsVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,11 +396,15 @@
 			files = (
 				C485944126A03066009DE6B6 /* .swiftlint.yml in Resources */,
 				C485943226A025B0009DE6B6 /* ProfileViewController.xib in Resources */,
+				C4B83AE626A452130041F577 /* CustomTableViewCell.xib in Resources */,
+				C4B83AF026A459F50041F577 /* NewsData.json in Resources */,
 				C4B3683B26A023AB00280DA8 /* LaunchScreen.storyboard in Resources */,
 				C485941D26A02519009DE6B6 /* TabbarViewController.xib in Resources */,
 				C485942E26A0259E009DE6B6 /* ListViewController.xib in Resources */,
+				C4B83AE226A451F60041F577 /* EventsViewController.xib in Resources */,
 				C4B3683826A023AB00280DA8 /* Assets.xcassets in Resources */,
 				C485945B26A03AFF009DE6B6 /* Localizable.strings in Resources */,
+				C4B83ADE26A451E10041F577 /* NewsViewController.xib in Resources */,
 				C485942926A02583009DE6B6 /* NearViewController.xib in Resources */,
 				C40413CD26A04AA10017FBFC /* HomeViewController.xib in Resources */,
 			);
@@ -402,13 +452,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C485942426A02571009DE6B6 /* HomeViewController.swift in Sources */,
+				C4B83AF226A45BB40041F577 /* Models.swift in Sources */,
+				C4B83AE826A452980041F577 /* ExtensionsView.swift in Sources */,
 				C485941C26A02519009DE6B6 /* TabbarViewController.swift in Sources */,
+				C4B83AEA26A452A50041F577 /* ExtensionsImage.swift in Sources */,
 				C40413C526A049500017FBFC /* LocalizedUI.swift in Sources */,
+				C4B83ADD26A451E10041F577 /* NewsViewController.swift in Sources */,
 				C485942826A02583009DE6B6 /* NearViewController.swift in Sources */,
 				C4B3682C26A023AA00280DA8 /* AppDelegate.swift in Sources */,
 				C4B3686326A023F300280DA8 /* CoreData.swift in Sources */,
+				C4B83AE126A451F60041F577 /* EventsViewController.swift in Sources */,
 				C485943F26A02EE3009DE6B6 /* Localized.swift in Sources */,
 				C485943D26A02E51009DE6B6 /* ExtensionString.swift in Sources */,
+				C4B83AE526A452130041F577 /* CustomTableViewCell.swift in Sources */,
 				C4B3683626A023AA00280DA8 /* MeetUpApp.xcdatamodeld in Sources */,
 				C485943126A025B0009DE6B6 /* ProfileViewController.swift in Sources */,
 				C485942D26A0259E009DE6B6 /* ListViewController.swift in Sources */,
